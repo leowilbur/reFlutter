@@ -60,7 +60,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          target_commitish: ${{env.SNAPSHOT_HASH}}
-          tag_name: ${{env.SNAPSHOT_HASH}}
+          target_commitish: "12345"
+          tag_name: "12345"
           files: |
             ./*.so
