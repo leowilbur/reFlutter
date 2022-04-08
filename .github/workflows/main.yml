@@ -60,6 +60,6 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: "123456"
+          tag_name: "1234567"
           files: |
             ./*.so
