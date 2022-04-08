@@ -11,10 +11,10 @@ jobs:
     steps:
       - name: Check out repository od
         uses: actions/checkout@v2
-      # - name: Set variables
-      #   run: |
-      #    HASH=$(cat SNAPSHOT_HASH)
-      #    echo "SNAPSHOT_HASH=$HASH" >> $GITHUB_ENV
+      - name: Set variables
+        run: |
+         HASH=$(cat SNAPSHOT_HASH)
+         echo "SNAPSHOT_HASH=$HASH" >> $GITHUB_ENV
       # - name: Install tools
       #   run: |
       #     sudo apt-get update
