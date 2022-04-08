@@ -60,7 +60,6 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          target_commitish: "12345"
           tag_name: "12345"
           files: |
             ./*.so
